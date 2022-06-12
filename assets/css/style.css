@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-content{
+    width: 800px;
+}
+
+.app-content .app-header{
+    margin-bottom: 10px;
+    background-color:rgba(170, 170, 170, 0.425);
+}
